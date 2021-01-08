@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Mini RPG</title>
+		<style>
+			body { font-family: Nunito, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+			code { color: #990000; }
+			li { padding: 15px 0; }
+		</style>
+	</head>
+	<body>
+		<h1>Mini RPG</h1>
+		<p>Ça se passe dans la console (<code>CTRL + Maj + I</code>)&nbsp;! ➡️</p>
+		<ul>
+			<li>Attaque normale&nbsp;: <code>game.currentPlayerAttacks(victim);</code></li>
+			<li>Attaque spéciale&nbsp;: <code>game.currentPlayerAttacks(victim, true)</code></li>
+			<li>Afficher les stats&nbsp;: <code>game.watchStats();</code></li>
+		</ul>
+	</body>
+	<script src="utils.js"></script>
+	<script src="./classes/Character.js"></script>
+	<script src="./classes/Assassin.js"></script>
+	<script src="./classes/Berserker.js"></script>
+	<script src="./classes/Fighter.js"></script>
+	<script src="./classes/Monk.js"></script>
+	<script src="./classes/Paladin.js"></script>
+	<script src="./classes/Game.js"></script>
+	<script src="index.js"></script>
+</html>
