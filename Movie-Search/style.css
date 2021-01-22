@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.search-bar {
+    width: 600px;
+    padding: 40px 50px 10px;
+}
+
+.movies-list {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 30px;
+    overflow: auto;
+}
+
+.alert {
+    margin: 0 20px 20px;
+}
+
+
+/* ************************ */
+/*                          */
+/*       Movie cards        */
+/*                          */
+/* ************************ */
+
+.movie-card {
+    flex: 1 0 450px;
+    display: flex;
+    margin: 20px;
+    padding: 18px 25px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    transform: translateX(50px);
+    opacity: 0;
+    transition: transform 1000ms, opacity 1000ms;
+}
+
+.movie-card__image {
+    height: 300px;
+    margin-right: 20px;
+}
+
+.movie-card__body {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-card__date {
+    flex: 1;
+    color: #616161;
+}
+
+.movie-card--displayed {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.fake-item {
+    flex: 0 0 100%;
+}
+
+/* ************************ */
+/*                          */
+/*   Movie details (modal)  */
+/*                          */
+/* ************************ */
+
+.movie-details {
+    min-width: 500px;
+    min-height: 500px;
+    padding: 25px 30px 10px;
+}
+
+.movie-details__image {
+    height: 350px;
+    margin: 0 auto 20px;
+}

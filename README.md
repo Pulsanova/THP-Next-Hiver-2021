@@ -15,6 +15,18 @@ qu'on jette un œil à votre code dès qu'on trouve le temps 🙂.
 
 ## L'algorithmie
 
-Dans le dossier [/algorithmie](/algorithmie) se trouve une version possible des scripts d'algo à faire pour le projet validant de la semaine 02. Deux dossiers, plusieurs possibilités&nbsp;:
+Dans le dossier [/algorithmie](/algorithmie) se trouve une version possible des scripts d'algo
+à faire pour le projet validant de la semaine 02. Deux dossiers, plusieurs possibilités&nbsp;:
 - /sorting → lancez la commande `node sorting/run.js data.txt` (ou bien `data2.txt`)
 - /project → une commande par exercice (documentée dans le fichier JS). Exemple&nbsp;: `node project/exo1.js subject1.txt 17`
+
+## La recherche de films
+
+Dans le dossier [/Movie-Search](/Movie-Search), on trouvera un "corrigé" du projet de page de
+recherche de films via l'[API de OMDb](http://www.omdbapi.com/). Pour que cela fonctionne,
+il faut ajouter un fichier `api-key.js` (qui est gitignoré) dans ce dossier, contenant la
+ligne suivante&nbsp;:
+
+```js
+const API_KEY = 'le-token-fourni-par-OMDb';
+```
