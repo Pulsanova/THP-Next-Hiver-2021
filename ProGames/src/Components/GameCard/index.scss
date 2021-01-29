@@ -1,0 +1,50 @@
+@import '../../style/variables';
+
+.GameCard {
+    list-style: none;
+    border: none;
+
+    &__image,
+    &__details {
+        height: 220px;
+        overflow: hidden;
+    }
+
+    &__details {
+        display: none;
+        font-size: 1.2rem;
+
+        &__tags {
+            font-size: .85rem;
+        }
+    }
+
+    &__platforms {
+        display: flex;
+        padding: 0;
+        margin: 0;
+
+        &__item {
+            flex: 0 0 auto;
+            list-style: none;
+            margin-right: 20px;
+            color: $color-lighter;
+        }
+    }
+
+    a:after {
+        display: none;
+    }
+
+    &--with-details {
+        .GameCard {
+            &__image {
+                display: none;
+            }
+
+            &__details {
+                display: block;
+            }
+        }
+    }
+}

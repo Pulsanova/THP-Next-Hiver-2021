@@ -1,0 +1,29 @@
+@import '../../style/variables';
+
+.Button {
+    background-color: $color-darkest;
+    color: $color-lightest;
+    transition: all $transition-time;
+    outline: 0;
+
+    &--outlined {
+        background: none;
+        border-width: $button-outlined-border-width;
+    }
+
+    &--outlined.button--primary {
+        &:hover,
+        &:focus {
+            background-color: $color-primary;
+            border-color: $color-primary;
+        }
+    }
+
+    &--outlined.button--secondary {
+        &:hover,
+        &:focus {
+            background-color: $color-secondary;
+            border-color: $color-secondary;
+        }
+    }
+}

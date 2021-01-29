@@ -1,0 +1,23 @@
+.title {
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.type-success {
+    color: $success-color;
+}
+
+.type-error {
+    color: $error-color;
+    font-weight: 700;
+}
+
+.type-light {
+    font-weight: 300;
+}

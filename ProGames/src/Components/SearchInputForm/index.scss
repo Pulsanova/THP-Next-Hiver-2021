@@ -1,0 +1,26 @@
+@import '../../style/variables';
+
+.SearchInputForm {
+    position: relative;
+
+    input[type=search] {
+        width: 100%;
+        margin: 10px 0;
+        padding: 8px 12px 8px 35px;
+        background-color: $color-darkest;
+        color: $color-lightest;
+        border-color: $color-lighter;
+        border-radius: 30px;
+        outline: 0;
+
+        &::placeholder {
+            color: $color-medium;
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        left: 8px;
+        top: 17px;
+    }
+}

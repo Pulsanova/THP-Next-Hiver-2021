@@ -1,0 +1,21 @@
+{
+    "name": "pro-games",
+    "private": true,
+    "scripts": {
+        "clean": "rm dist/*",
+        "start": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "dependencies": {
+        "dayjs": "~1.10.4",
+        "tent-css": "~1.4.3",
+        "typeface-lato": "~1.1.13"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
+        "eslint": "^7.18.0",
+        "parcel-bundler": "^1.12.4",
+        "sass": "^1.32.5"
+    }
+}
