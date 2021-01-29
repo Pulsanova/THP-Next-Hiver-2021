@@ -1,0 +1,8 @@
+.Content {
+    flex: 1;
+    padding: 7px 15px;
+
+    @include breakpoint-min('md') {
+        padding: 30px 15px;
+    }
+}

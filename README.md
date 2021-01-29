@@ -30,3 +30,10 @@ ligne suivante&nbsp;:
 ```js
 const API_KEY = 'le-token-fourni-par-OMDb';
 ```
+
+## La SPA de « The Hyper Progame »
+
+Le dossier [/ProGames](/ProGames) contient une version de la SPA "The Hyper Progame", projet
+validant de la semaine 04. Cette version utilise le bundler Parcel. Pour lancer le projet en mode
+développement, il suffit de lancer la commande `npm start`, puis de se rendre à l'adresse :
+[http://localhost:1234](http://localhost:1234).

@@ -1,0 +1,22 @@
+.Header {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    padding: 7px 15px;
+
+    &__title {
+        flex: 1;
+        color: $color-primary;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .SearchInputForm {
+        flex: 0 0 250px;
+    }
+
+    @include breakpoint-min('md') {
+        padding: 30px 15px 0;
+    }
+}
+
