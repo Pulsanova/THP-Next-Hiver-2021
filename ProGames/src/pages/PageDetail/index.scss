@@ -1,0 +1,50 @@
+@import '../../style/variables';
+
+.PageDetail {
+    position: relative;
+
+    &__link-back {
+        position: absolute;
+        padding: 8px 15px;
+        background-color: rgba($color-darker, .4);
+        color: $color-lighter;
+    }
+
+    &__image {
+        min-height: 400px;
+        margin-bottom: 20px;
+    }
+
+    &__hero {
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 20px;
+
+        &__title {
+            flex: 1;
+            font-size: 2.2rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        &__rating {
+            flex: 0 0 auto;
+            color: $color-primary;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+    }
+
+    &__info-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    &__error,
+    &__loading {
+        margin: 50px 0 30px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}

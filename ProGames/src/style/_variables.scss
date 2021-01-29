@@ -1,0 +1,113 @@
+// --------------------------------------------------
+// - Zones
+// --------------------------------------------------
+
+$zone-header: 'Header';
+$zone-content: 'Content';
+$zone-footer: 'Footer';
+
+// --------------------------------------------------
+// - Colors
+// --------------------------------------------------
+
+$color-primary: #d20a32;
+$color-secondary: #f44c05;
+$color-tertiary: #e3e3e3;
+
+$color-lightest: #fff;
+$color-lighter: #e3e3e3;
+$color-light: #bdbdbd;
+$color-medium: #8a8a8a;
+$color-dark: #3d3d3d;
+$color-darker: #191919;
+$color-darkest: #000;
+
+// Base Colors
+$base-color: $color-lightest;
+$base-color-inverse: $color-darker;
+$base-color-bg: $color-darker;
+
+$success-color: #adf405;
+$error-color: #e20400;
+
+// Link Colors
+$link-color: $color-primary;
+$link-hover-color: $color-lightest;
+
+// Buttons Colors
+$button-tertiary-color: $color-darkest;
+
+// --------------------------------------------------
+// - Base
+// --------------------------------------------------
+
+$base-font-weight: 400;
+$base-line-height: 1.7;
+
+$border-radius: 5px;
+
+$transition-time: 300ms;
+
+// --------------------------------------------------
+// - Space Sizes
+// --------------------------------------------------
+
+$space-base: 8px;
+
+// --------------------------------------------------
+// - Typography
+// --------------------------------------------------
+
+$font-family-primary: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-secondary: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-monospace: "Lucida Console", Courier, monospace;
+
+// Font Sizes
+$size-xxxs: .7rem;
+$size-xxs: .8rem;
+$size-xs: .9rem;
+$size-sm: 1rem;
+$size-md: 1.1rem;
+$size-lg: 1.2rem;
+$size-xl: 1.4rem;
+$size-xxl: 1.6rem;
+$size-xxxl: 2rem;
+
+// --------------------------------------------------
+// - Heading
+// --------------------------------------------------
+
+$heading-color: $base-color;
+$heading-color-inverse: $color-lightest;
+$heading-line-height: 1.25;
+
+// --------------------------------------------------
+// - Buttons
+// --------------------------------------------------
+
+$button-border-radius: 3px;
+$button-outlined-border-width: 1px;
+
+// --------------------------------------------------
+// - Code
+// --------------------------------------------------
+
+$code-color: $color-primary;
+$code-padding: rem(2px) rem(4px);
+$code-bg: $color-lighter;
+
+// --------------------------------------------------
+// - Cards
+// --------------------------------------------------
+
+$card-bg: $color-darker;
+
+// --------------------------------------------------
+// - Standalone Typography Modifiers
+// --------------------------------------------------
+
+$type-bold: 700;
+$type-black: 900;
+$type-italic: italic;
+$type-small: 0.7em;
+$type-caps: small-caps;
