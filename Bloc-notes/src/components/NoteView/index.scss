@@ -1,0 +1,31 @@
+@import '../../variables';
+
+.NoteView {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    overflow-y: auto;
+
+    &__message {
+        flex: 0 0 auto;
+        align-self: center;
+        font-size: 1.1rem;
+        font-style: italic;
+        color: $text-muted-color;
+    }
+
+    &__content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        .NoteViewDisplay {
+            flex: 1;
+        }
+
+        .NoteViewForm {
+            flex: 0 0 auto;
+        }
+    }
+}

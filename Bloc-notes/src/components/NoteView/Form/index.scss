@@ -1,0 +1,52 @@
+@import '../../../variables';
+
+.NoteViewForm {
+    &__field {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    &__input,
+    &__textarea {
+        flex: 1;
+        background-color: #4b4b4b;
+        border: none;
+        padding: 15px 20px;
+        color: #fff;
+        font-family: $default-font-family;
+        font-size: 1rem;
+        border: 1px solid transparent;
+
+        &::placeholder {
+            color: rgb(143, 143, 143);
+        }
+
+        &:focus {
+            outline: 0;
+            border-color: #979797;
+        }
+    }
+
+    &__textarea {
+        min-height: 140px;
+        resize: vertical;
+    }
+
+    &__footer {
+        padding-bottom: 20px;
+
+        &__error {
+            color: #f00;
+            font-style: italic;
+        }
+
+        .Button + .Button {
+            margin-left: 10px;
+            background-color: #444;
+
+            &:hover {
+                background-color: #555;
+            }
+        }
+    }
+}
