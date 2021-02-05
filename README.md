@@ -37,3 +37,11 @@ Le dossier [/ProGames](/ProGames) contient une version de la SPA "The Hyper Prog
 validant de la semaine 04. Cette version utilise le bundler Parcel. Pour lancer le projet en mode
 développement, il suffit de lancer la commande `npm start`, puis de se rendre à l'adresse :
 [http://localhost:1234](http://localhost:1234).
+
+
+## L'appli React du « bloc-notes »
+
+Dans le dossier [/Bloc-notes](/Bloc-notes), vous trouverez une version du bloc-notes React, projet
+validant de la semaine 05. Dans ce projet, les [règles ESLint de Airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+ont été mises en place, avec quand même quelques exceptions (voir les `rules` dans le
+fichier `.eslintrc.json`).

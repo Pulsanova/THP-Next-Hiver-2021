@@ -1,0 +1,14 @@
+@import '../../../variables';
+
+.NoteViewDisplay {
+    &__title {
+        font-size: 1.5rem;
+        color: $title-color;
+        margin: 0;
+    }
+
+    &__text {
+        font-size: 1rem;
+        padding: 20px 0;
+    }
+}
