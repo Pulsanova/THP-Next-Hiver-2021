@@ -1,0 +1,27 @@
+@import '../../variables';
+
+.Button {
+    $button-color: #c70624;
+
+    padding: 12px 30px;
+    border: none;
+    background-color: $button-color;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: $default-font-family;
+
+    &:hover {
+        background-color: lighten($button-color, 5%);
+    }
+
+    &:focus {
+        outline: 0;
+        border: none;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+        background-color: rgba($button-color, .5);
+    }
+}

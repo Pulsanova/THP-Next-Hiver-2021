@@ -1,0 +1,41 @@
+@import '../../../variables';
+
+.NoteListItem {
+    padding: 20px;
+    background: none;
+    color: #fff;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-family: $default-font-family;
+
+    &__title {
+        color: $title-color;
+        font-size: 1.3rem;
+        margin: 0 0 8px;
+    }
+
+    &__text {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    &__id {
+        color: $text-muted-color;
+        margin: 5px 0;
+        font-size: .7rem;
+    }
+
+    &:hover {
+        background-color: rgba(#fff, .1);
+
+        .NoteListItem__title {
+            color: lighten($title-color, 10%);
+        }
+    }
+
+    &:focus {
+        outline: 0;
+        border: none;
+    }
+}

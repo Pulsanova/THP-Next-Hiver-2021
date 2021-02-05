@@ -1,0 +1,21 @@
+{
+    "extends": [
+        "react-app",
+        "airbnb",
+        "airbnb/hooks"
+    ],
+    "rules": {
+        "indent": ["error", 4],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "react/prop-types": "off",
+        "react/jsx-one-expression-per-line": "off"
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "moduleDirectory": ["node_modules/", "src/"]
+            }
+        }
+    }
+}
