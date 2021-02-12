@@ -1,0 +1,14 @@
+.Navbar {
+    a {
+        display: inline-block;
+        padding: 8px 15px;
+
+        &.active {
+            background: #efefef;
+        }
+
+        &:hover {
+            background: #eee;
+        }
+    }
+}
