@@ -1,0 +1,11 @@
+.PageStations {
+    &__no-data {
+        color: grey;
+        font-style: italic;
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+    }
+}
