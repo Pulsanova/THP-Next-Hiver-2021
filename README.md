@@ -45,3 +45,10 @@ Dans le dossier [/Bloc-notes](/Bloc-notes), vous trouverez une version du bloc-n
 validant de la semaine 05. Dans ce projet, les [règles ESLint de Airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
 ont été mises en place, avec quand même quelques exceptions (voir les `rules` dans le
 fichier `.eslintrc.json`).
+
+## Exemples de "custom hooks"
+
+Dans le dossier [/React-hooks](/React-hooks), on trouvera des exemples d'utilisation des hooks les
+plus couramment utilisés dans une appli React, à savoir : `useRef()`, `useMemo()`, `useCallback()`,
+et `useReducer()`, mais aussi un exemple d'utilisation de "custom hooks" afin de centraliser le code
+de components React.
