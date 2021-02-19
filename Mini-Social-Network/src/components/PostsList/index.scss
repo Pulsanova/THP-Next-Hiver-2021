@@ -1,0 +1,12 @@
+.PostsList {
+    margin: 0;
+    padding: 0 0 30px;
+
+    &__loading {
+        position: absolute;
+        font-style: italic;
+        margin: 0;
+        top: 5px;
+        right: 0;
+    }
+}
