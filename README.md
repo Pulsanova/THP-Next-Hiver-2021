@@ -52,3 +52,11 @@ Dans le dossier [/React-hooks](/React-hooks), on trouvera des exemples d'utilisa
 plus couramment utilisés dans une appli React, à savoir : `useRef()`, `useMemo()`, `useCallback()`,
 et `useReducer()`, mais aussi un exemple d'utilisation de "custom hooks" afin de centraliser le code
 de components React.
+
+## Mini réseau social
+
+Dans le dossier [/Mini-Social-Network](/Mini-Social-Network), vous trouverez une version de départ
+du projet de la semaine 07 (Redux). Il n'y a que le système de login et la récupération des posts,
+mais ça peut servir de bonne base pour la suite ! Pour les curieux qui veulent plutôt utiliser Mobx,
+vous trouverez le même projet, mais en version Mobx dans le dossier
+[/Mini-Social-Network-Mobx](/Mini-Social-Network-Mobx) !

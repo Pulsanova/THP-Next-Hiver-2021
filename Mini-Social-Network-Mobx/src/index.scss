@@ -1,0 +1,49 @@
+@import './variables';
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $default-font-family;
+    font-size: 16px;
+}
+
+#root {
+    height: 100vh;
+    width: 100%;
+    background-color: $background-color;
+}
+
+.App {
+    padding: 20px 30px;
+    height: 100%;
+}
+
+a {
+    padding: 5px 15px;
+    text-decoration: none;
+    color: $color-link;
+
+    &:hover {
+        background-color: #f7f7f7;
+        color: lighten($color-link, 20%);
+    }
+
+    &.active {
+        color: $color-link-active;
+        cursor: default;
+
+        &:hover {
+            background: none;
+            color: $color-link-active;
+        }
+    }
+}
+
+.error {
+    color: #f00;
+}

@@ -1,0 +1,26 @@
+.PostItem {
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #efefef;
+    border-radius: 3px;
+
+    &__header {
+        display: flex;
+        padding: 5px 15px;
+        border-bottom: 1px solid #dfdfdf;
+
+        &__author,
+        &__date {
+            color: #666;
+        }
+
+        &__author {
+            flex: 1;
+        }
+    }
+
+    &__text {
+        padding: 15px;
+        margin: 0;
+    }
+}
