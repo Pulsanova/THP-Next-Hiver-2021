@@ -1,0 +1,14 @@
+.Home {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+
+    &__title,
+    &__welcome-message {
+        text-align: center;
+    }
+
+    &__welcome-message {
+        font-style: italic;
+    }
+}
