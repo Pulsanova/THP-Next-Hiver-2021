@@ -60,3 +60,11 @@ du projet de la semaine 07 (Redux). Il n'y a que le système de login et la réc
 mais ça peut servir de bonne base pour la suite ! Pour les curieux qui veulent plutôt utiliser Mobx,
 vous trouverez le même projet, mais en version Mobx dans le dossier
 [/Mini-Social-Network-Mobx](/Mini-Social-Network-Mobx) !
+
+## Introduction à TypeScript et aux tests avec Jest
+
+Dans le dossier [/typescript](/typescript) se trouve une mini application initialisée avec
+`create-react-app` et son template `typescript`, permettant d'utiliser TS pour écrire le code de
+l'application. Aussi, on y trouvera quelques tests unitaires, utilisant Jest et "React Testing
+Library" pour les composants : lancer la commande `npm run test`, puis appuyer sur la touche "a"
+pour tous les exécuter.
