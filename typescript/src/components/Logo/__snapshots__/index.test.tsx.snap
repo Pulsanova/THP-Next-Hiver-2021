@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo /> component matches HTML snapshot correctly 1`] = `
+<img
+  alt="logo"
+  class="Logox"
+  src="logo.svg"
+/>
+`;
