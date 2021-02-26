@@ -8,9 +8,9 @@ type Props = {
 const Hello = (props: Props) => {
     const { user } = props;
     return (
-        <h1 className="Hello">
-            Hello {user ? user.name : 'world'}!
-        </h1>
+        <h2 className="Hello">
+            Hello {user ? user.name : 'World'}!
+        </h2>
     );
 };
 

@@ -2,8 +2,8 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Hello from './';
 
-describe('<Hello /> component', () => {
-    render(<Hello />);
+describe('<Hello /> component without user', () => {
+    render(<Hello user={null} />);
     // console.log(screen.debug());
     const heading = screen.getByRole('heading');
 
