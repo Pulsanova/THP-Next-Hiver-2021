@@ -6,7 +6,7 @@ import Logo from 'components/Logo';
 
 const App = (): JSX.Element => (
     <div className="App">
-        <Hello />
+        <Hello user={null} />
         <Logo />
     </div>
 );
