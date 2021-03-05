@@ -1,0 +1,6 @@
+[
+    { "id": 1, "author": "Polo", "content": "Hello world!", "date": "2021-03-03" },
+    { "id": 2, "author": "Droopy", "content": "I'm happy, you know :)", "date": "2021-03-04" },
+    { "id": 3, "author": "Julie", "content": "You guys are genius!", "date": "2021-03-05" },
+    { "id": 4, "author": "Polo", "content": "Well, I don't think so but... thanks!", "date": "2021-03-05" }
+]

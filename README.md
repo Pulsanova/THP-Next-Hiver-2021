@@ -68,3 +68,9 @@ Dans le dossier [/typescript](/typescript) se trouve une mini application initia
 l'application. Aussi, on y trouvera quelques tests unitaires, utilisant Jest et "React Testing
 Library" pour les composants : lancer la commande `npm run test`, puis appuyer sur la touche "a"
 pour tous les exécuter.
+
+## Application React en SSR / SSG avec Next.js*
+
+Dans le dossier [/next-js-app](/next-js-app), on trouvera une application créée avec `create-next-app`,
+comme exemple d'utilisation du framework [Next.js](https://nextjs.org/) permettant de faire du "Server
+Side Rendering" (SSR) et de la "Static Site Generation" (SSG). Lancer la commande `npm dev` pour essayer !
